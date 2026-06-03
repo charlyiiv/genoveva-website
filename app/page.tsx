@@ -72,10 +72,29 @@ GENOVEVA </h1>
 
   <section className="py-20 px-6 text-center">
     <h2 className="text-4xl font-bold mb-8">
-   <a href="tel:+447799733587">Call Darrell</a>
-<a href="https://wa.me/447799733587" target="_blank">WhatsApp Darrell</a>
-<a href="mailto:charlyiiv@hotmail.com">Email Enquiry</a>
-    </h2>
+ <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+  <a
+    href="tel:+447799733587"
+    className="rounded-full bg-amber-500 px-8 py-4 font-bold text-black hover:bg-amber-400"
+  >
+    Call Darrell
+  </a>
+
+  <a
+    href="https://wa.me/447799733587"
+    target="_blank"
+    className="rounded-full bg-green-600 px-8 py-4 font-bold text-white hover:bg-green-500"
+  >
+    WhatsApp Darrell
+  </a>
+
+  <a
+    href="mailto:charlyiiv@hotmail.com"
+    className="rounded-full border border-white px-8 py-4 font-bold text-white hover:bg-white hover:text-black"
+  >
+    Email Enquiry
+  </a>
+</div>
 
     <p className="text-2xl">
       07799 733587
