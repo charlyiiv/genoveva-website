@@ -72,7 +72,9 @@ GENOVEVA </h1>
 
   <section className="py-20 px-6 text-center">
     <h2 className="text-4xl font-bold mb-8">
-      Contact Darrell
+   <a href="tel:+447799733587">Call Darrell</a>
+<a href="https://wa.me/447799733587" target="_blank">WhatsApp Darrell</a>
+<a href="mailto:charlyiiv@hotmail.com">Email Enquiry</a>
     </h2>
 
     <p className="text-2xl">
