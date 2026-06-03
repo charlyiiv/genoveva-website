@@ -70,36 +70,44 @@ GENOVEVA </h1>
     </div>
   </section>
 
-  <section className="py-20 px-6 text-center">
-    <h2 className="text-4xl font-bold mb-8">
- <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-  <a
-    href="tel:+447799733587"
-    className="rounded-full bg-amber-500 px-8 py-4 font-bold text-black hover:bg-amber-400"
-  >
-    Call Darrell
-  </a>
+<section className="py-20 px-6 text-center">
+  <h2 className="text-4xl font-bold mb-8">
+    Contact Darrell
+  </h2>
 
-  <a
-    href="https://wa.me/447799733587"
-    target="_blank"
-    className="rounded-full bg-green-600 px-8 py-4 font-bold text-white hover:bg-green-500"
-  >
-    WhatsApp Darrell
-  </a>
+  <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+    <a
+      href="tel:+447799733587"
+      className="rounded-full bg-amber-500 px-8 py-4 font-bold text-black hover:bg-amber-400"
+    >
+      Call Darrell
+    </a>
 
-  <a
-    href="mailto:charlyiiv@hotmail.com"
-    className="rounded-full border border-white px-8 py-4 font-bold text-white hover:bg-white hover:text-black"
-  >
-    Email Enquiry
-  </a>
-</div>
+    <a
+      href="https://wa.me/447799733587"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="rounded-full bg-green-600 px-8 py-4 font-bold text-white hover:bg-green-500"
+    >
+      WhatsApp Darrell
+    </a>
 
-    <p className="text-2xl">
-      07799 733587
-    </p>
+    <a
+      href="mailto:charlyiiv@hotmail.com"
+      className="rounded-full border border-white px-8 py-4 font-bold text-white hover:bg-white hover:text-black"
+    >
+      Email Enquiry
+    </a>
+  </div>
 
+  <p className="mt-8 text-2xl">
+    07799 733587
+  </p>
+
+  <p className="mt-4 text-slate-400">
+    Viewings, ownership details and syndicate information available on request.
+  </p>
+</section>
     <p className="mt-4 text-slate-400">
       Viewings, ownership details and syndicate information available on request.
     </p>
