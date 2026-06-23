@@ -49,7 +49,7 @@ export default function Home() {
               href="tel:+447799733587"
               className="rounded-full bg-amber-500 px-8 py-4 font-bold text-black"
             >
-              Call Darrell
+              Call Us
             </a>
 
             <a
@@ -186,7 +186,7 @@ export default function Home() {
       {/* CONTACT */}
       <section className="bg-slate-900 py-20 px-6 text-center">
         <h2 className="text-5xl font-bold mb-6">
-          Contact Darrell
+          Contact Us
         </h2>
 
         <p className="text-2xl mb-2">07799 733587</p>
