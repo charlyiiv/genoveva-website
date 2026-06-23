@@ -1,13 +1,19 @@
 export default function Home() {
   const gallery = [
-    "/genoveva-1.jpg",
-    "/genoveva-2.jpg",
-    "/genoveva-3.jpg",
-    "/genoveva-4.jpg",
-    "/genoveva-5.jpg",
-    "/genoveva-6.jpg",
-    "/genoveva-tender.jpg",
-  ];
+  "/genoveva-1.jpg",
+  "/genoveva-2.jpg",
+  "/genoveva-3.jpg",
+  "/genoveva-4.jpg",
+  "/genoveva-5.jpg",
+  "/genoveva-6.jpg",
+  "/genoveva-7.jpg",
+  "/genoveva-8.jpg",
+  "/genoveva-9.jpg",
+  "/genoveva-10.jpg",
+  "/genoveva-11.jpg",
+  "/genoveva-tender.jpg",
+];
+
 
   return (
     <main className="bg-slate-950 text-white">
