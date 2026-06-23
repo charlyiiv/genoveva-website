@@ -113,6 +113,21 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <section className="py-20 px-6">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-4xl font-bold text-center mb-10">
+      Watch GENOVEVA
+    </h2>
+
+    <video
+      controls
+      className="w-full rounded-2xl shadow-2xl"
+      poster="/genoveva-1.jpg"
+    >
+      <source src="/genoveva-video.mp4" type="video/mp4" />
+    </video>
+  </div>
+</section>
 
       {/* UPGRADES */}
       <section className="bg-amber-500 text-black py-20 px-6">
