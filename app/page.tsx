@@ -36,7 +36,7 @@ style={{ backgroundImage: "url('/genoveva-1.jpg')" }}
       </p>
 
       <div className="inline-block rounded-full bg-amber-500 px-6 py-2 text-black font-bold mb-8">
-        REDUCED TO £51,500
+        SHARE COST ONLY £51,500
       </div>
 
       <h1 className="text-6xl md:text-9xl font-bold tracking-wide mb-8">
