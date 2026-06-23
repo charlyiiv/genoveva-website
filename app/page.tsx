@@ -345,7 +345,6 @@ style={{ backgroundImage: "url('/genoveva-1.jpg')" }}
     WhatsApp
   </a>
 </main>
-```
 
 );
 }
