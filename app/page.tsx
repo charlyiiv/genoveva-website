@@ -54,6 +54,12 @@ style={{ backgroundImage: "url('/genoveva-1.jpg')" }}
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+  href="/details"
+  className="rounded-full border border-white px-6 py-3"
+>
+  Full Details
+</a>
         <a href="tel:+447799733587" className="rounded-full bg-amber-500 px-8 py-4 font-bold text-black">
           Call Us
         </a>
