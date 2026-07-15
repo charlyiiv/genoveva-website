@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "GENOVEVA | Fairline Squadron 58 Share For Sale",
@@ -17,7 +18,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
-}
+  <body>{children}</body>
+
+  <Script
+    src="https://www.googletagmanager.com/gtag/js?id=G-PTSK13E58M"
+    strategy="afterInteractive"
+  />
+
+  <Script id="google-analytics" strategy="afterInteractive">
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PTSK13E58M');
+    `}
+  </Script>
+</html>
