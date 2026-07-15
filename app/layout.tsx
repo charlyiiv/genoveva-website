@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import type { Metadata } from "next";
-
 export const metadata: Metadata = {
   title: "GENOVEVA | Fairline Squadron 58 Share For Sale",
   description:
