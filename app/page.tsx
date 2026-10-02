@@ -15,12 +15,12 @@ const gallery = [
 ];
 
 const weeks = [
-"W/C 2nd March",
-"W/C 23rd March",
-"W/C 1st June",
-"W/C 8th June",
-"W/C 27th July",
-"W/C 7th September",
+"W/C 1st March",
+"W/C 19th April",
+"W/C 26th April",
+"W/C 24th May",
+"W/C 31st May",
+"W/C 25th October",
 ];
 
 return ( <main className="bg-[#06111f] text-white">
@@ -261,7 +261,7 @@ style={{ backgroundImage: "url('/genoveva-1.jpg')" }}
   <section className="py-24 px-6">
     <div className="max-w-6xl mx-auto">
       <h2 className="text-5xl font-bold text-center mb-12">
-        Allocated 2026 Weeks
+        Allocated 2027 Weeks
       </h2>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -273,8 +273,7 @@ style={{ backgroundImage: "url('/genoveva-1.jpg')" }}
       </div>
 
       <p className="mt-10 text-center text-slate-300 text-lg">
-        2027 weeks are yet to be chosen — buy now to secure your preferred
-        dates. Additional weeks and swaps are sometimes available by private
+        Additional weeks and swaps are sometimes available by private
         agreement between owners.
       </p>
     </div>
